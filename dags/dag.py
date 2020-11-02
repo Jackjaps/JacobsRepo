@@ -25,8 +25,8 @@ task1 = DummyOperator(
 
 # [START howto_operator_bash]
 task2 = BashOperator(
-    task_id='run_after_loop',
-    bash_command='echo "run_id={{ run_id }} | dag_run={{ dag_run }}"',
+    task_id='bash_jacobo',
+    bash_command='echo "esta es una ejecucion normal"',
     dag=dag,
 )
 # [END howto_operator_bash]
