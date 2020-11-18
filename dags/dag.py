@@ -10,7 +10,7 @@ args = {
 }
 
 dag = DAG(
-    dag_id='jacobs_bash_operator',
+    dag_id='Jonathan_bash_operator',
     default_args=args,
     schedule_interval='0 0 * * *',
     start_date=days_ago(2),
